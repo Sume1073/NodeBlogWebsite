@@ -1,4 +1,4 @@
-Full-Stack Blog Web App
+FULL-STACK BLOG WEB APPLICATION
 This project is a full-stack blog web application with CRUD functionality, built using HTML, CSS, JavaScript, EJS, Node.js, Express.js, and MongoDB.
 
 Features
@@ -17,19 +17,13 @@ To get a local copy up and running, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/repository-name.git
 cd repository-name
 Install dependencies:
 
-bash
-Copy code
+
 npm install
 Start the server:
-
-bash
-Copy code
 npm start
 Open your browser and navigate to http://localhost:3000 to view the application.
 
