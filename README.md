@@ -37,13 +37,6 @@ Node.js, Express.js
 MongoDB
 Authors
 Your Name - Your LinkedIn Profile
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Mention any libraries, frameworks, or third-party assets used in the project.
-Inspiration, tutorials, or code snippets used from other sources.
-Notes:
-Replace placeholders (your-username, repository-name, Your Name, Your LinkedIn Profile, etc.) with your actual details.
-Customize the sections and content based on your specific project's features and requirements.
-Provide clear instructions and details to help users understand and use your application effectively.
+
+
