@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Blog Website</title>
+    <title>Contact Us - Blog Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -29,6 +29,7 @@
         .content p {
             margin-bottom: 20px;
             font-size: 1.1em;
+            text-align: center;
         }
         .section {
             margin-bottom: 40px;
@@ -60,10 +61,18 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
         .section li::before {
-            content: "\2713";
+            content: "\2709";
             color: #243B55;
             font-weight: bold;
             margin-right: 15px;
+        }
+        .section li a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .section li a:hover {
+            color: #243B55;
         }
         @media (max-width: 768px) {
             .content {
@@ -80,33 +89,24 @@
 </head>
 <body>
     <div class="container content">
-        <h1>About My Website</h1>
-        <p>Welcome to my Blog Website, a full-stack application built with a focus on user experience and robust functionality. Our platform allows users to view blog posts seamlessly, while administrators have the ability to create, update, and delete posts.</p>
+        <h1>Contact Us</h1>
+        <p>Feel free to reach out to us through LinkedIn, Gmail, or follow us on social media for updates.</p>
 
-        <div class="section tech-used">
-            <h2>Technologies Used</h2>
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>EJS (Embedded JavaScript)</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MongoDB</li>
+                <li><a href="https://www.linkedin.com/in/sumedha-chakrabarty-964810202/" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:chakrabartysumedha774@gmail.com">Gmail</a></li>
             </ul>
         </div>
 
-        <div class="section functionalities">
-            <h2>Functionalities</h2>
+        <div class="section additional-info">
+            <h2>Additional Information</h2>
+            <p>Follow us on social media for updates and more:</p>
             <ul>
-                <li><strong>Create:</strong> Administrators can create new blog posts with a user-friendly form.</li>
-                <li><strong>Read:</strong> Visitors can browse and read blog posts with ease.</li>
-                <li><strong>Update:</strong> Administrators can edit existing posts to keep content up-to-date.</li>
-                <li><strong>Delete:</strong> Administrators have the option to delete posts if needed.</li>
-                <li><strong>Responsive Design:</strong> The website is fully responsive and works well on all devices.</li>
-                <li><strong>User Authentication:</strong> Secure login and registration system for administrators.</li>
-                <li><strong>Search Functionality:</strong> Allows users to search for posts using keywords.</li>
-                <li><strong>Comment System:</strong> Enables users to comment on posts and interact with authors.</li>
+                <li>Twitter: <a href="https://x.com/sumedhachakrab6" target="_blank">@sumedhachakrab6</a></li>
+                <li>Instagram: <a href="https://www.instagram.com/_s.i.l.v.e.r__l.i.n.i.n.g_?igsh=MWFvZnd5N2pucGt6aw==" target="_blank">_s.i.l.v.e.r__l.i.n.i.n.g_</a></li>
+                <li>YouTube: <a href="https://youtube.com/@sumedhaaa8631?si=rnHSWKd1i3fro8JX" target="_blank">Sumedhaaa</a></li>
             </ul>
         </div>
     </div>
